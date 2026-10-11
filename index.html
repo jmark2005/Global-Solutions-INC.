@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Smart School Safety and Student Support Management System</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+</head>
+<body>
+
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <div class="nav-logo">
+        <img src="Global Solutions INC..jpg" alt="Global Solutions INC. Logo" class="nav-logo-img" />
+        <span>Global Solutions INC.</span>
+      </div>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#modules">Modules</a></li>
+        <li><a href="#features">Features</a></li>
+        <li><a href="#terms">Key Terms</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <div class="nav-actions">
+        <a href="login.html" class="btn btn-outline">Log In</a>
+        <a href="login.html" class="btn btn-primary">Get Started</a>
+      </div>
+      <button class="hamburger" id="hamburger" aria-label="Toggle navigation">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <section class="hero" id="home">
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+      <h1>Smart School Safety<br /><span class="accent">&amp; Student Support</span><br />Management System</h1>
+      <p class="hero-sub">
+        A unified platform for tracking safety incidents, monitoring attendance,
+        and coordinating student support services — empowering every member of
+        your school community.
+      </p>
+      <div class="hero-cta">
+        <a href="#modules" class="btn btn-primary btn-lg">Explore the System</a>
+        <a href="login.html" class="btn btn-ghost btn-lg">Sign In</a>
+      </div>
+      <div class="hero-stats">
+        <div class="stat">
+          <span class="stat-num">1</span>
+          <span class="stat-label">School</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat">
+          <span class="stat-num">4</span>
+          <span class="stat-label">User Roles</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat">
+          <span class="stat-num">8</span>
+          <span class="stat-label">Core Modules</span>
+        </div>
+      </div>
+    </div>
+    <div class="hero-graphic">
+      <div class="hero-card card-float">
+        <i class="fas fa-triangle-exclamation"></i>
+        <div>
+          <strong>Incident Reported</strong>
+          <small>Corridor B — 2 mins ago</small>
+        </div>
+      </div>
+      <div class="hero-card card-float card-delay">
+        <i class="fas fa-bell"></i>
+        <div>
+          <strong>Emergency Alert</strong>
+          <small>All staff notified</small>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section about" id="about">
+    <div class="container">
+      <div class="section-label">About the System</div>
+      <h2 class="section-title">What is S<sup>4</sup>MS?</h2>
+      <div class="about-grid">
+        <div class="about-text">
+          <p>
+            The <strong>Smart School Safety and Student Support Management System (S<sup>4</sup>MS)</strong>
+            is a project by <strong>Global Solutions INC.</strong> designed to centralize and streamline all activities related to student
+            safety incidents and student support services within a designated school.
+          </p>
+          <p>
+            The system tracks safety incidents, semester attendance, and support services while
+            maintaining clear records of participation by administrators, teachers, counselors,
+            and other school personnel.
+          </p>
+          <p>
+            By providing a digital dashboard and facility mapping, S<sup>4</sup>MS enables
+            faster response times and informed decision-making at every level of school management.
+          </p>
+        </div>
+        <div class="about-cards">
+          <div class="about-card">
+            <i class="fas fa-user-shield"></i>
+            <h4>Administrators</h4>
+            <p>Full dashboard access to monitor, manage, and respond to all incidents and user accounts.</p>
+          </div>
+          <div class="about-card">
+            <i class="fas fa-chalkboard-teacher"></i>
+            <h4>Teachers &amp; Staff</h4>
+            <p>Submit reports, view assigned tasks, and coordinate support activities efficiently.</p>
+          </div>
+          <div class="about-card">
+            <i class="fas fa-user-graduate"></i>
+            <h4>Students</h4>
+            <p>Access support resources, trigger emergency alerts, and monitor their own attendance.</p>
+          </div>
+          <div class="about-card">
+            <i class="fas fa-heart-pulse"></i>
+            <h4>Counselors</h4>
+            <p>Track student welfare activities and document support service completion records.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section modules" id="modules">
+    <div class="container">
+      <div class="section-label">System Modules</div>
+      <h2 class="section-title">What the System Can Do</h2>
+      <div class="modules-grid">
+
+        <div class="module-card">
+          <div class="module-icon"><i class="fas fa-gauge-high"></i></div>
+          <div class="module-body">
+            <h3>Dashboard</h3>
+            <p>A central real-time portal where administrators and staff monitor all active incidents, student concerns, attendance flags, and system activity at a glance.</p>
+          </div>
+        </div>
+
+        <div class="module-card">
+          <div class="module-icon"><i class="fas fa-bell"></i></div>
+          <div class="module-body">
+            <h3>Emergency Alert</h3>
+            <p>Students and staff can instantly trigger emergency notifications to school management, ensuring fast response to on-campus emergencies.</p>
+          </div>
+        </div>
+
+        <div class="module-card">
+          <div class="module-icon"><i class="fas fa-map-location-dot"></i></div>
+          <div class="module-body">
+            <h3>Facility Mapping</h3>
+            <p>An interactive virtual diagram of the school premises that pinpoints the exact location of reported incidents or ongoing emergencies.</p>
+          </div>
+        </div>
+
+        <div class="module-card">
+          <div class="module-icon"><i class="fas fa-file-circle-exclamation"></i></div>
+          <div class="module-body">
+            <h3>Incident Reporting</h3>
+            <p>A structured reporting module for submitting, tracking, and managing safety events on school premises, complete with status updates and audit history.</p>
+          </div>
+        </div>
+
+        <div class="module-card">
+          <div class="module-icon"><i class="fas fa-calendar-check"></i></div>
+          <div class="module-body">
+            <h3>Attendance Monitoring</h3>
+            <p>Tracks semester-based student attendance records and flags patterns that may indicate welfare concerns or safety risks requiring counselor intervention.</p>
+          </div>
+        </div>
+
+        <div class="module-card">
+          <div class="module-icon"><i class="fas fa-hand-holding-heart"></i></div>
+          <div class="module-body">
+            <h3>Student Support Services</h3>
+            <p>Coordinates and documents all student support activities handled by counselors and staff, ensuring no student concern goes unaddressed.</p>
+          </div>
+        </div>
+
+        <div class="module-card">
+          <div class="module-icon"><i class="fas fa-users-gear"></i></div>
+          <div class="module-body">
+            <h3>Personnel Tracking</h3>
+            <p>Monitors the participation and task completion of administrators, teachers, counselors, and staff involved in safety and support activities.</p>
+          </div>
+        </div>
+
+        <div class="module-card">
+          <div class="module-icon"><i class="fas fa-lock"></i></div>
+          <div class="module-body">
+            <h3>Login / Authentication</h3>
+            <p>Role-based secure access for all users — students, teachers, counselors, staff, and administrators — ensuring each user only accesses what they are authorized for.</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <section class="section features" id="features">
+    <div class="container">
+      <div class="section-label">Core Features</div>
+      <h2 class="section-title">Built for School Safety</h2>
+      <div class="features-grid">
+
+        <div class="feature-card">
+          <div class="feature-icon icon-blue">
+            <i class="fas fa-gauge-high"></i>
+          </div>
+          <h3>Dashboard</h3>
+          <p>Central portal for administrators and staff to monitor, manage, and address all reported incidents and student concerns in real time.</p>
+        </div>
+
+        <div class="feature-card">
+          <div class="feature-icon icon-red">
+            <i class="fas fa-bell"></i>
+          </div>
+          <h3>Emergency Alert</h3>
+          <p>Allows students or staff to instantly notify school management of any on-campus emergencies, triggering immediate response workflows.</p>
+        </div>
+
+        <div class="feature-card">
+          <div class="feature-icon icon-green">
+            <i class="fas fa-map-location-dot"></i>
+          </div>
+          <h3>Facility Mapping</h3>
+          <p>A virtual diagram of the school premises integrated into the system to pinpoint the exact location of reported incidents or emergencies.</p>
+        </div>
+
+        <div class="feature-card">
+          <div class="feature-icon icon-orange">
+            <i class="fas fa-file-circle-exclamation"></i>
+          </div>
+          <h3>Incident Reporting</h3>
+          <p>Streamlined submission and tracking of safety reports for events occurring on school premises, with status updates and history logs.</p>
+        </div>
+
+        <div class="feature-card">
+          <div class="feature-icon icon-purple">
+            <i class="fas fa-calendar-check"></i>
+          </div>
+          <h3>Attendance Monitoring</h3>
+          <p>Tracks semester-based attendance records for all students, helping identify patterns that may signal welfare or safety concerns.</p>
+        </div>
+
+        <div class="feature-card">
+          <div class="feature-icon icon-teal">
+            <i class="fas fa-lock"></i>
+          </div>
+          <h3>Login / Authentication</h3>
+          <p>Secure identity verification for all user roles — students, teachers, staff, and administrators — ensuring authorized access at every level.</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <section class="section terms" id="terms">
+    <div class="container">
+      <div class="section-label">Definition of Terms</div>
+      <h2 class="section-title">Key Concepts &amp; Terminology</h2>
+      <div class="terms-grid">
+
+        <div class="term-card">
+          <div class="term-icon"><i class="fas fa-user-tie"></i></div>
+          <div class="term-body">
+            <h4>Administrator (Admin)</h4>
+            <p>An authorized user — a school official or appointed staff — with unrestricted access to the system's dashboard to monitor, manage, and respond to reported incidents and user accounts.</p>
+          </div>
+        </div>
+
+        <div class="term-card">
+          <div class="term-icon"><i class="fas fa-gauge-high"></i></div>
+          <div class="term-body">
+            <h4>Dashboard</h4>
+            <p>The main portal used by administrators and school staff to monitor, manage, and address reported incidents and student concerns.</p>
+          </div>
+        </div>
+
+        <div class="term-card">
+          <div class="term-icon"><i class="fas fa-bell"></i></div>
+          <div class="term-body">
+            <h4>Emergency Alert</h4>
+            <p>A system feature that enables students or staff to notify school management of emergencies occurring on school premises.</p>
+          </div>
+        </div>
+
+        <div class="term-card">
+          <div class="term-icon"><i class="fas fa-map-location-dot"></i></div>
+          <div class="term-body">
+            <h4>Facility Mapping</h4>
+            <p>A virtual diagram of the school premises integrated into the system to indicate the location of reported incidents or emergencies.</p>
+          </div>
+        </div>
+
+        <div class="term-card">
+          <div class="term-icon"><i class="fas fa-file-circle-exclamation"></i></div>
+          <div class="term-body">
+            <h4>Incident Reporting</h4>
+            <p>The process of submitting reports on safety issues or events occurring on school premises through the system.</p>
+          </div>
+        </div>
+
+        <div class="term-card">
+          <div class="term-icon"><i class="fas fa-lock"></i></div>
+          <div class="term-body">
+            <h4>Login / Authentication</h4>
+            <p>The process by which users (students, teachers, staff, administrators) verify their identity — typically via username and password — to gain authorized access to the system.</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <section class="section contact" id="contact">
+    <div class="container">
+      <div class="section-label">Contact</div>
+      <h2 class="section-title">Get in Touch</h2>
+      <div class="contact-grid">
+        <div class="contact-info">
+          <div class="contact-item">
+            <i class="fas fa-school"></i>
+            <div>
+              <strong>School</strong>
+              <span>Designated School Campus</span>
+            </div>
+          </div>
+          <div class="contact-item">
+            <i class="fas fa-envelope"></i>
+            <div>
+              <strong>Email</strong>
+              <span>support@s4ms.edu.ph</span>
+            </div>
+          </div>
+          <div class="contact-item">
+            <i class="fas fa-phone"></i>
+            <div>
+              <strong>Hotline</strong>
+              <span>(02) 8000-0000</span>
+            </div>
+          </div>
+          <div class="contact-item">
+            <i class="fas fa-clock"></i>
+            <div>
+              <strong>Office Hours</strong>
+              <span>Monday – Friday, 7:00 AM – 5:00 PM</span>
+            </div>
+          </div>
+        </div>
+        <form class="contact-form">
+          <div class="form-row">
+            <div class="form-group">
+              <label for="cname">Full Name</label>
+              <input type="text" id="cname" placeholder="Your name" />
+            </div>
+            <div class="form-group">
+              <label for="cemail">Email Address</label>
+              <input type="email" id="cemail" placeholder="your@email.com" />
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="csubject">Subject</label>
+            <input type="text" id="csubject" placeholder="Message subject" />
+          </div>
+          <div class="form-group">
+            <label for="cmessage">Message</label>
+            <textarea id="cmessage" rows="4" placeholder="Write your message here..."></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary btn-block">
+            <i class="fas fa-paper-plane"></i> Send Message
+          </button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <div class="footer-logo-wrap">
+            <img src="Global Solutions INC..jpg" alt="Global Solutions INC. Logo" class="footer-logo-img" />
+            <span class="footer-brand-name">Global Solutions INC.</span>
+          </div>
+          <p>Smart School Safety and Student Support Management System — dedicated to safer, better-supported school communities.</p>
+        </div>
+        <div class="footer-links">
+          <h5>Quick Links</h5>
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#modules">Modules</a></li>
+            <li><a href="#features">Features</a></li>
+            <li><a href="#terms">Key Terms</a></li>
+          </ul>
+        </div>
+        <div class="footer-links">
+          <h5>System Modules</h5>
+          <ul>
+            <li><a href="#modules">Dashboard</a></li>
+            <li><a href="#modules">Emergency Alert</a></li>
+            <li><a href="#modules">Facility Mapping</a></li>
+            <li><a href="#modules">Incident Reporting</a></li>
+            <li><a href="#modules">Attendance Monitoring</a></li>
+          </ul>
+        </div>
+        <div class="footer-links">
+          <h5>User Roles</h5>
+          <ul>
+            <li>Administrator</li>
+            <li>Teacher</li>
+            <li>Counselor</li>
+            <li>School Staff</li>
+            <li>Student</li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 Global Solutions INC. — Smart School Safety &amp; Student Support Management System. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
